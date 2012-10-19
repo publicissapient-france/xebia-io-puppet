@@ -1,4 +1,4 @@
-class boto {
+class s3-utils::boto {
         exec {
                 "git clone git://github.com/boto/boto.git" :
                         cwd     => "/tmp",
